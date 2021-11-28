@@ -25,9 +25,9 @@ class Prigov_marketex extends CModule
     {
         $this->MODULE_VERSION = '0.0.1';
         $this->MODULE_VERSION_DATE = '13.09.2021';
-        $this->MODULE_NAME = 'Расширение Яндекс.Маркет для Бизнеса. Выгрузка в ОЗОН';
-        $this->MODULE_DESCRIPTION = 'Обновление остатков и цен с сайта в фид';
-        $this->PARTNER_NAME = 'Антон Чехов';
+        $this->MODULE_NAME = 'Р Р°СЃС€РёСЂРµРЅРёРµ РЇРЅРґРµРєСЃ.РњР°СЂРєРµС‚ РґР»СЏ Р‘РёР·РЅРµСЃР°. Р’С‹РіСЂСѓР·РєР° РІ РћР—РћРќ';
+        $this->MODULE_DESCRIPTION = 'РћР±РЅРѕРІР»РµРЅРёРµ РѕСЃС‚Р°С‚РєРѕРІ Рё С†РµРЅ СЃ СЃР°Р№С‚Р° РІ С„РёРґ';
+        $this->PARTNER_NAME = 'РђРЅС‚РѕРЅ Р§РµС…РѕРІ';
         $this->PARTNER_URI = 'https://prigov.info';
     }
 
@@ -48,8 +48,8 @@ class Prigov_marketex extends CModule
     public function InstallEvents()
     {
         /**
-         * Получаем объект менеджера событий.
-         * Нужен для подписки на событие
+         * РџРѕР»СѓС‡Р°РµРј РѕР±СЉРµРєС‚ РјРµРЅРµРґР¶РµСЂР° СЃРѕР±С‹С‚РёР№.
+         * РќСѓР¶РµРЅ РґР»СЏ РїРѕРґРїРёСЃРєРё РЅР° СЃРѕР±С‹С‚РёРµ
          * @var EventManager
          */
         $eventManager = EventManager::getInstance();
